@@ -1,5 +1,5 @@
 {
-  "name": "cli-guessing-game",
+  "name": "sofia_cli-guessing-game",
   "version": "1.0.0",
   "description": "game with random and roundoff function and if, else statements",
   "main": "index.js",
