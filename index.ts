@@ -6,6 +6,7 @@ do {
   answer = await inquirer.prompt([{message: "select a number to guess from 1-10", type : "number", name : "userGuessNumber"}])
   if(answer.userGuessNumber === -1)  {
 console.log("you lose the game");
+break;
   }
   else if(answer.userGuessNumber === randomNumber){
         console.log('Congratulations!! You have guessed the right number')
