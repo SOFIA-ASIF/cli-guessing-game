@@ -1,19 +1,18 @@
 {
   "name": "sofia_cli-guessing-game",
-  "version": "5.0.0",
+  "version": "6.2.0",
   "description": "game with random and roundoff function and if, else statements",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "sofia_cli-guessing-game": "index.js"
-  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sofia Asif",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.16"
+    "inquirer": "^9.2.16",
+    "sofia_cli-guessing-game": "^6.0.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
